@@ -3,7 +3,7 @@ name: run time survey00
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 0 * * * #UTC 00:00
+    - cron: 0 0-23 * * * #Runs at every minute 0 of the 0 to 23th hour
 
 jobs:
   build:
