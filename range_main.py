@@ -5,7 +5,7 @@ if __name__ == '__main__':
 	add_txt = '<br>' + str(dt_now) + '\n'
 	print(dt_now)
 
-	file_path = "README.md" 
+	file_path = "range.txt" 
 	with open(file_path, "r") as file:
 		txt = file.read()
 		txt = txt + add_txt
